@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Title</h2>
+    <h4>Author: author</h4>
+    <h3>Reviews</h3>
+    <ul style="list-style-type:none">
+            <li>List item one</li>
+            <li>List item two with subitems:
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul>
+            </li>
+            <li>Final list item</li>
+    </ul>
+    <form>
+        <label>Review: </label><input type='text' name='review'>
+        <label>Rating:
+            <select>1
+                <option value= '1'>1</option>
+                <option value= '2'>2</option>
+                <option value= '3'>3</option>
+                <option value= '4'>4</option>
+                <option value= '5'>5</option>
+            </select>
+            stars
+        </label>
+        <button>Add Book and Review</button>
+    </form>
+    <a href="/books">Home</a>
+    <a href="/">Logout</a>
+    <a href='users/{{user.id}}'>Account Info</a>
+    
+</body>
+</html>
